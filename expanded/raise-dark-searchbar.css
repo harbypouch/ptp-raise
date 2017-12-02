@@ -28,7 +28,7 @@ body#requests .page__title ~ .linkbox:first-of-type:not(:last-of-type), #userinf
 .search-form__advanced-basic-toggler a, a[onclick*="#taglist"],
 a[onclick^=ToggleTagSelector], [class$=__new]:before, [class$=__bookmark] a, [class$=__rate] a, [class$=__trailer] a, .release-name-movie-list__movie__action, [id^=submanager] a:first-child:before, [id^=submanager] a:nth-child(2):before, .torrent_info_first_block + .linkbox a:nth-of-type(1), .torrent_info_first_block + .linkbox a:nth-of-type(2), .torrent_info_first_block + .linkbox a:nth-of-type(3), .torrent_info_first_block + .linkbox a:nth-of-type(4), .screenshot-comparison__old-school-toggler-container a, .last5-movies__show-all-link, .js-latest-posts-tbody tr:last-of-type a, .film-club-discuss-link a:before, #jump_to_container a:nth-of-type(1), #jump_to_container a:nth-of-type(2), #jump_to_container a:nth-of-type(3), #jump_to_container a:nth-of-type(4), #jump_to_container a:nth-of-type(5), .subscribed_collages_table td span[style*="right"] a:nth-of-type(1), .subscribed_collages_table td span[style*="right"] a:nth-of-type(2), .subscribed_collages_table td span[style*="right"] a:nth-of-type(3), .subscribed_collages_table td span[style*="right"] a:nth-of-type(4), body#inbox #searchbox span[style^=float] a {
   padding: 0 2px;
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
   border: 1px solid;
   border-radius: 2px;
@@ -107,7 +107,7 @@ a[onclick^=ToggleTagSelector], [class$=__new]:before, [class$=__bookmark] a, [cl
 body#forums .heading + .forum_index th, body#staff .thin > div:nth-of-type(2) h3 + table th {
   height: 26px;
   line-height: 26px;
-  font-size: 10px;
+  font-size: 12px;
   background: rgba(0, 0, 0, 0.1212);
   border-bottom: rgba(255, 255, 255, 0.03);
 }
@@ -567,7 +567,7 @@ img, img:before {
 }
 
 .panel__heading__toggler:before {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .toggle {
@@ -581,7 +581,7 @@ img, img:before {
 }
 
 .toggle:before {
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .discuss {
@@ -1146,7 +1146,7 @@ a[onclick^=ToggleTagSelector]:hover {
   margin: 12px auto 0;
   padding: 12px;
   text-align: center;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .footer__disclaimer {
@@ -1318,7 +1318,7 @@ img[title="Request time"] {
 [class$=__new]:before {
   content: "NEW";
   border-color: #ffff99;
-  font-size: 10px;
+  font-size: 12px;
   color: #ffff99;
 }
 
@@ -1393,7 +1393,7 @@ a[class*="link--seen"]:after {
 
 .basic-movie-list__torrent-edition {
   background: rgba(0, 0, 0, 0.06);
-  font-size: 10px;
+  font-size: 12px;
   font-weight: 400;
   text-transform: uppercase;
   color: rgba(169, 255, 169, 0.925);
@@ -1745,7 +1745,7 @@ img[title^="High quality"] {
 [id^=submanager] a:first-child:before {
   content: "request sub";
   border-color: #ffff99;
-  font-size: 10px;
+  font-size: 12px;
   color: #ffff99;
 }
 
@@ -1762,7 +1762,7 @@ img[title^="High quality"] {
 [id^=submanager] a:nth-child(2):before {
   content: "sub manager";
   border-color: #ff995c;
-  font-size: 10px;
+  font-size: 12px;
   color: #ff995c;
 }
 
@@ -2213,7 +2213,7 @@ img[title^="High quality"] {
 .film-club-discuss-link a:before {
   content: "discuss this movie";
   border-color: #66a3ff;
-  font-size: 10px;
+  font-size: 12px;
   color: #66a3ff;
 }
 
